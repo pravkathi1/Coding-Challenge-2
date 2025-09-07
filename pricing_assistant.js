@@ -12,10 +12,9 @@ profitPerUnit = finalPriceWithTax - costPerUnit
 breakEvenUnits = Math.ceil(fixedMonthlyCosts / profitPerUnit)
 isProfitablePerUnit (boolean) = profitPerUnit > 0
 
-console.log(productName)
-console.log(discountedPrice)
-console.log(finalPriceWithTax)
-console.log(finalPriceWithTax - costPerUnit)
-console.log(breakEvenUnits)
-console.log(costPerUnit)
-.toFixed(2)
+console.log(productName);
+console.log("Discounted Price" = discountedPrice);
+console.log("Final Price With Tax" = finalPriceWithTax);
+console.log("Profit Per Unit" = finalPriceWithTax - costPerUnit);
+console.log("Break Even Units" = breakEvenUnits);
+console.log("Profitable" = costPerUnit);
