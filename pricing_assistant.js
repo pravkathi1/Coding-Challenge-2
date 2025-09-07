@@ -15,3 +15,4 @@ isProfitablePerUnit (boolean) = profitPerUnit > 0
 console.log(productName, discountedPrice, finalPriceWithTax, profitPerUnit, breakEvenUnits, costPerUnit)
 .toFixed(2)
 
+
