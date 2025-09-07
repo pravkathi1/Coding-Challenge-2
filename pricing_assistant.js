@@ -1,7 +1,7 @@
 let productName = "Labubu";
 let department = 'Toys';
-let costPerUnit = 60
-let basePrice = 50
+let costPerUnit = 50
+let basePrice = 65
 let discountRate = 0.05
 let salesTaxRate = 0.06
 let fixedMonthlyCosts = 500
@@ -12,7 +12,7 @@ profitPerUnit = finalPriceWithTax - costPerUnit
 breakEvenUnits = Math.ceil(fixedMonthlyCosts / profitPerUnit)
 isProfitablePerUnit = profitPerUnit > 0
 
-console.log(productName);
+console.log("Product:" , productName);
 console.log("Discounted Price",  discountedPrice);
 console.log("Final Price With Tax" , finalPriceWithTax);
 console.log("Profit Per Unit" , finalPriceWithTax - costPerUnit);
