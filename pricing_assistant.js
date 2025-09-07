@@ -12,15 +12,14 @@ let unitsSold = 100;
 
 discountedPrice = basePrice * (1 - discountRate)
 finalPriceWithTax = discountedPrice * (1 + salesTaxRate)
-profitPerUnit = finalPriceWithTax - costPerUnit
+profitPerUnit = (finalPriceWithTax - costPerUnit.toFixed(2))
 breakEvenUnits = Math.ceil(fixedMonthlyCosts / profitPerUnit)
 isProfitablePerUnit = profitPerUnit > 0
-balance = initialCapital + netCashFlow
 
 let revenue = finalPriceWithTax * unitsSold
 let expenses = (costPerUnit * unitsSold) + fixedMonthlyCosts;
 let netCashFlow = (revenue - expenses)
-
+let balance = initialCapital + netCashFlow
 
 // Profit
 console.log("Product:" , productName);
