@@ -1,3 +1,5 @@
+// Coding Challenge 02
+
 let productName = "Labubu";
 let department = 'Toys';
 let costPerUnit = 50
