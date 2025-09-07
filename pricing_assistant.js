@@ -12,7 +12,7 @@ let unitsSold = 100;
 
 discountedPrice = basePrice * (1 - discountRate)
 finalPriceWithTax = discountedPrice * (1 + salesTaxRate)
-profitPerUnit = (finalPriceWithTax - costPerUnit.toFixed(2))
+profitPerUnit = ((finalPriceWithTax - costPerUnit).toFixed(2))
 breakEvenUnits = Math.ceil(fixedMonthlyCosts / profitPerUnit)
 isProfitablePerUnit = profitPerUnit > 0
 
